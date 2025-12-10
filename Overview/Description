@@ -1,0 +1,45 @@
+Employee Management System (Java | Swing | MySQL)
+
+The Employee Management System (EMS) is a desktop-based application built using Java Swing, JDBC, and MySQL that allows organizations to efficiently manage employee records. This project demonstrates CRUD operations, database connectivity, UI development, and core Java concepts.
+
+🚀 Features
+
+Add New Employee – Insert employee details into the database
+
+Update Employee Info – Modify existing employee records
+
+Delete Employee – Remove employees from the system
+
+Search Employee – Fetch records based on Employee ID
+
+View All Employees – Display full employee list
+
+Attractive UI using Swing components
+
+Date Picker Integration using JDateChooser
+
+Database Connectivity using JDBC
+
+Error Handling + Validation
+
+🛠️ Tech Stack
+Technology	Description
+Java (JDK 17+)	Core project language
+Swing	Graphical user interface
+JDBC	Database connectivity
+MySQL	Backend database
+IntelliJ IDEA / Eclipse	IDE used for development
+📂 Project Structure
+Employee-Management-System/
+│── src/
+│   ├── AddEmployee.java
+│   ├── UpdateEmployee.java
+│   ├── RemoveEmployee.java
+│   ├── ViewEmployee.java
+│   ├── DBConnection.java
+│   └── Splash.java
+│── database/
+│   └── employee.sql
+│── assets/
+│   └── icons/
+│── README.md
